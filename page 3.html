@@ -100,7 +100,7 @@
 
 		.content {
 			background-color: 
-			rgba(240, 173, 78, 0.7);
+			rgba(240, 173, 78, 1);
 			color: white;
 			padding: 10px;
 			margin-top: 50px;
@@ -215,7 +215,22 @@
 		</div>	
 
 
+
 	</div>	
+
+	<div class="demo">
+  <!-- Currency Converter Form -->
+  <form action="" role="form">
+    <label for="baseList">From:</label>
+    <select name="baseList" id="baseList"></select>
+    <input type="number" name="baseInput" value="" id="baseInput">
+
+    <label for="targetList">To:</label>
+    <select name="targetList" id="targetList"></select>
+    <input type="text" name="targetOutput" value="" id="targetOutput" readonly>
+  </form> 
+</div>
+
 
 	<div class="mailingList">
 
@@ -245,6 +260,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/31ebb0c5c4.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="bngMoney.js"></script>
+
 
 </body>
 
