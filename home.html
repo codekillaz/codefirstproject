@@ -228,9 +228,9 @@
 				<label for="exampleInputEmail1"><h2>Join our mailing list to get updates on upcoming travel deals!</h2></label>
 				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 				
-				<button id="thankYou" type="button" class="btn btn-warning orangebtn">Submit</button>
+				<button id="thankYou" type="submit" class="btn btn-warning orangebtn">Submit</button>
 
-			
+				
 
 
 				
@@ -249,13 +249,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/31ebb0c5c4.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-	console.log("the document is ready")
-	var button = $(".orangebtn");
-	button.on('click',function(){
-		alert("Thank you for joining!");
-	});
-});</script>
+	$(document).ready(function() {
+		console.log("the document is ready")
+		var button = $(".orangebtn");
+		button.on('click',function(){
+			alert("Thank you for joining!");
+		});
+	});</script>
 
 
 
