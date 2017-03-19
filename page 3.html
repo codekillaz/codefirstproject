@@ -173,7 +173,7 @@
 	}
 
 	#prepaid{
-		background-color: white;
+		background-color: 240, 173, 78, 1;
 		color: black;
 	}
 
@@ -181,6 +181,11 @@
 		font-family: 'Poiret One', Arial;
 		font-size: 20px;
 	}
+
+	.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: rgba(0,0,0,.7); 
+ }
 </style>
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
@@ -240,50 +245,53 @@
 
 				<div class="row">
 					<div class="span4">
-					<div id="prepaid">
+						<div id="prepaid">
 
-						<h2>Recommended prepaid card providers:</h2>
+							<h2>Recommended prepaid card providers:</h2>
 
-						<table class="table table-striped">
-							<thead>
-								<th>Provider</th>
-								<th>Product</th>
-								<th>Fees</th>
-								<th>International ATM Charges</th>
-							</thead>
-							<tr>
-								<td>We Swap</td>
-								<td>Prepaid MasterCard</td>
-								<td>N/A</td>
-								<td>€1.75</td>
-							</tr>
-							<tr>
-								<td>FairFX</td>
-								<td>FairFX Euro Currency Card Special</td>
-								<td>N/A</td>
-								<td>€1.50</td>
-							</tr>
-							<tr>
-								<td>Caxton</td>
-								<td>FX Currency Card</td>
-								<td>N/A</td>
-								<td>Free</td>
-							</tr>
-							<tr>
-								<td>easyJet</td>
-								<td>Euro Currency Card</td>
-								<td>N/A</td>
-								<td>Free</td>
-							</tr>
-						</table>
+							<div class="table-responsive">
+
+								<table class="table table-striped">
+									<thead>
+										<th>Provider</th>
+										<th>Product</th>
+										<th>Fees</th>
+										<th>International ATM Charges</th>
+									</thead>
+									<tr>
+										<td>We Swap</td>
+										<td>Prepaid MasterCard</td>
+										<td>N/A</td>
+										<td>€1.75</td>
+									</tr>
+									<tr>
+										<td>FairFX</td>
+										<td>FairFX Euro Currency Card Special</td>
+										<td>N/A</td>
+										<td>€1.50</td>
+									</tr>
+									<tr>
+										<td>Caxton</td>
+										<td>FX Currency Card</td>
+										<td>N/A</td>
+										<td>Free</td>
+									</tr>
+									<tr>
+										<td>easyJet</td>
+										<td>Euro Currency Card</td>
+										<td>N/A</td>
+										<td>Free</td>
+									</tr>
+								</table>
+							</div>
+						</div>
 					</div>
+
 				</div>
 
 			</div>
-
 		</div>
-	</div>
-</div>	
+	</div>	
 
 
 
