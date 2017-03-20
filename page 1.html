@@ -385,7 +385,15 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/31ebb0c5c4.js"></script>
-
+<script type="text/javascript">
+	$(document).ready(function() {
+		console.log("the document is ready")
+		var button = $(".orangebtn");
+		button.on('click',function(){
+			alert("Thank you for joining!");
+		});
+	});</script>
+	
 </body>
 
 </html>
